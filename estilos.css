@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#contenedor {
+	width: 1000px;
+	height: auto;
+	margin: auto;}
+
+#encabezado {
+	height: 250px;
+
+}
+
+#botonera {
+    height: 50px;
+
+    background-image: url(img/bandera%206.png);
+}
+
+#botonera ul {
+	/*border: 1px solid orange;*/
+	width: 500px;
+	margin: auto;
+}
+
+#botonera ul li {
+    float: left;
+    vertical-align: middle;
+    width: 123px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 48px;
+    font-weight: 400;
+/*    background-color: rgba(245,249,251,0.50); 
+*/}   
+
+#botonera ul li a {
+    font-weight: 800;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 15px;
+    text-decoration: none;
+	text-transform: uppercase;
+	 color: rgba(0,36,78,1.00);
+
+	
+}
+
+#botonera ul li a:hover {text-shadow: 3px 2px 0px rgba(228,212,105,0.81);}
+
+#centro {
+    height: 600px;
+    background-color: rgba(0,36,78,1.00);
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#207cca+0,7db9e8+20,ffffff+50,7db9e8+80,207cca+100 */
+background: rgb(32,124,202); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(32,124,202) 0%, rgb(125,185,232) 20%, rgb(255,255,255) 50%, rgb(125,185,232) 80%, rgb(32,124,202) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(32,124,202) 0%,rgb(125,185,232) 20%,rgb(255,255,255) 50%,rgb(125,185,232) 80%,rgb(32,124,202) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgb(32,124,202) 0%,rgb(125,185,232) 20%,rgb(255,255,255) 50%,rgb(125,185,232) 80%,rgb(32,124,202) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
+
+}
+
+#centro {
+    height: 600px;
+    background-color: rgba(0,36,78,1.00);
+	
+	}
+.cajas {
+    float: left;
+    height: 270px;
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    background-color: rgba(255,255,255,1.00);    
+    
+}
+
+.cajas:hover{
+   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+ 
+.cajas img{
+	display: block;
+	margin: auto;
+	
+
+}
+
+.cajas p {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+
+}
+
+h3 {
+    /*margin-top: 10px;*/
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgba(64,149,232,1.00);
+    color: rgba(249,247,248,1.00);
+	line-height: 26px;
+    text-transform: uppercase;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+p {
+	font-size: 16px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: 400;
+	line-height: 20px;
+}
+
+#caja1 {
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 25px;
+    width: 550px;
+    height: 550px;
+    float: left;
+    margin-bottom: 20px;
+    background-color: rgba(255,252,249,1.00);
+    
+}
+
+#caja1.mi-caja {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red; /* Borde rojo de 2px */
+  border-radius: 0 0 0 20px; /* Borde redondeado solo en la esquina superior izquierda */
+}
+
+
+/*#caja1:hover {box-shadow: -13px -12px 0px 0px rgba(255,255,255,0.5);
+-webkit-box-shadow: -13px -12px 0px 0px rgba(255,255,255,0.5);
+-moz-box-shadow: -13px -12px 0px 0px rgba(255,255,255,0.5);
+}
+*/
+
+#caja1:hover {box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;}
+
+#caja1 h1 {
+
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    text-align: center;
+    background-color: rgba(64,149,232,1.00);
+    color: rgba(249,247,248,1.00);
+}
+
+#caja1 p {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#caja1 img {
+    display: block;
+    margin: auto;
+    border-top: 3px solid rgba(145,179,204,1.00);
+    border-bottom: 3px solid rgba(145,179,204,1.00);
+    border-left: 3px solid rgba(229,225,222,1.00);
+    border-right: 3px solid rgba(229,225,222,1.00);
+	margin-top: 15px;
+}
+
+#caja2 {
+    float: right;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 25px;
+    height: 550px;
+    width: 350px;
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,1.00);
+}
+
+#caja2 h2 {
+	/*margin-top: 5px;*/
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    text-align: center;
+    background-color: rgba(64,149,232,1.00);
+    color: rgba(249,247,248,1.00);
+}
+
+#caja2 p {font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;}
+
+#caja2 img {
+	display: block;
+	margin: auto;
+	margin-top: 14px;
+	border-top: 3px solid rgba(145,179,204,1.00);
+    border-bottom: 3px solid rgba(145,179,204,1.00);
+    border-left: 3px solid rgba(229,225,222,1.00);
+    border-right: 3px solid rgba(229,225,222,1.00);
+}
+
+#caja2:hover {box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;}
+
+#pie {
+    text-transform: uppercase;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+	height: 50px;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    background-image: url(img/bandera%206.png);
+}
+
+
